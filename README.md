@@ -67,3 +67,23 @@ MettreÀJour(): Met à jour l'état de la course à chaque frame (position des v
 EstCourseFinie(): Vérifie si la course est terminée (un véhicule a franchi la ligne d'arrivée).
 
 ------------------------------
+
+Les patrons de conceptions utilisés:
+
+- 1. héritage ou héritage :
+
+AIVehicle et PlayerVehicle héritent de la classe de base Vehicle, favorisant la réutilisabilité du code et une structure hiérarchique.
+- 2. Strategy Pattern/ ou conception comportementale :
+
+La classe AIVehicle peut employer différentes stratégies d'IA (par exemple, agressive, défensive, équilibrée) en utilisant différents algorithmes pour trouver le chemin le plus court et utiliser les objets de manière stratégique. Cela permet un comportement d’IA flexible et adaptable.
+- 3. Modèle d'observateur :
+
+La classe Race peut agir comme un sujet, notifiant d'autres objets (par exemple, des éléments de l'interface utilisateur, des effets sonores) lorsque l'état de la course change (par exemple, la position des véhicules, la récupération d'objets, l'achèvement de la course). Cela garantit que les différentes parties du jeu sont mises à jour de manière cohérente.
+- 4. Modèle Singleton :
+
+Des classes telles que GameManager et InputHandler peuvent être implémentées en tant que singletons pour garantir qu'il n'y a qu'une seule instance de chacune tout au long du jeu, offrant ainsi un accès et une coordination globaux.
+Ces modèles de conception contribuent à une architecture de jeu bien structurée, flexible et maintenable.
+
+----------------------------------
+Algorithm utilisé:
+Pour un jeu de course comme Turbo Rivals, Alpha-Beta Pruning est généralement un meilleur choix. Il offre un bon équilibre entre précision et efficacité. En supprimant les branches inutiles, il peut réduire considérablement le coût de calcul tout en trouvant des mouvements forts.
