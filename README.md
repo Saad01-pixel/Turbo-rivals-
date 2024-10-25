@@ -20,7 +20,7 @@ Hiérarchie de classes et composants
 
 | Class | Attributes | fonctions |
 |---|---|---|
-| Véhicule	Position, Vitesse, Direction, Santé, Bouclier, BoostCount	Mouvement(), Accélérer(), Freiner(), TournerGauche(), TournerDroite(), UtiliserBoost(), UtiliserBouclier(), SubirDommages() |
+| Véhicule |	Position, Vitesse, Direction, Santé, Bouclier, BoostCount	Mouvement(), Accélérer(), Freiner(), TournerGauche(), TournerDroite(), UtiliserBoost(), UtiliserBouclier(), SubirDommages() | a
 | VéhiculeIA |	NiveauDifficulté	TrouverCheminLePlusCourt(), UtiliserObjetStratégiquement() |
 | VéhiculeJoueur |	EntréeJoueur	GérerEntrée() |
 | Objet |	Type, Durée, RayonEffet	AppliquerEffet(Véhicule) |
