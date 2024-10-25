@@ -19,7 +19,7 @@ Architecture:
 Hiérarchie de classes et composants
 
 | Class | Attributes |
-|---|---|---|
+|---|---|
 | Véhicule |	Position, Vitesse, Direction, Santé, Bouclier, BoostCount	Mouvement(), Accélérer(), Freiner(), TournerGauche(), TournerDroite(), UtiliserBoost(), UtiliserBouclier(), SubirDommages() |
 | VéhiculeIA |	NiveauDifficulté	TrouverCheminLePlusCourt(), UtiliserObjetStratégiquement() |
 | VéhiculeJoueur |	EntréeJoueur	GérerEntrée() |
