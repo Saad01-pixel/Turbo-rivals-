@@ -18,10 +18,12 @@ Architecture:
 
 Hiérarchie de classes et composants
 
-Classe	Attributs	Fonctions
-Véhicule	Position, Vitesse, Direction, Santé, Bouclier, BoostCount	Mouvement(), Accélérer(), Freiner(), TournerGauche(), TournerDroite(), UtiliserBoost(), UtiliserBouclier(), SubirDommages()
-VéhiculeIA	NiveauDifficulté	TrouverCheminLePlusCourt(), UtiliserObjetStratégiquement()
-VéhiculeJoueur	EntréeJoueur	GérerEntrée()
-Objet	Type, Durée, RayonEffet	AppliquerEffet(Véhicule)
-Circuit	Disposition, Obstacles	PositionValide(Position), ObtenirWaypointProche(Position)
-Course	Participants, TourActuel, LigneArrivée	Démarrer(), MettreÀJour(), EstCourseFinie()
+| Class | Attributes | Methods |
+|---|---|---|
+| Véhicule	Position, Vitesse, Direction, Santé, Bouclier, BoostCount	Mouvement(), Accélérer(), Freiner(), TournerGauche(), TournerDroite(), UtiliserBoost(), UtiliserBouclier(), SubirDommages() |
+| VéhiculeIA |	NiveauDifficulté	TrouverCheminLePlusCourt(), UtiliserObjetStratégiquement() |
+| VéhiculeJoueur |	EntréeJoueur	GérerEntrée() |
+| Objet |	Type, Durée, RayonEffet	AppliquerEffet(Véhicule) |
+| Circuit |	Disposition, Obstacles	PositionValide(Position), ObtenirWaypointProche(Position) |
+| Course |	Participants, TourActuel, LigneArrivée	Démarrer(), MettreÀJour(), EstCourseFinie() |
+
