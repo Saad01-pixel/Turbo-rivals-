@@ -10,3 +10,10 @@ Il va se dérouler dans plusieurs pistes de courses avec des objets spéciaux qu
 Hiérarchy de classe 
 
 ![6d048b10ccfe74860b43397873938212](https://github.com/user-attachments/assets/1f60f07a-3860-4e10-83d5-6c8ebc9e7dc6)
+
+
+----------------------------------------
+
+Architecture:
+
+
