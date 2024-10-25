@@ -31,9 +31,9 @@ Hiérarchie de classes et composants
 |---|
 Explication des fonctions:
 
-Véhicule:
+- Véhicule:
 
-| Mouvement() |: Déplace le véhicule.
+ Mouvement() : Déplace le véhicule.
 Accélérer(): Augmente la vitesse du véhicule.
 Freiner(): Réduit la vitesse du véhicule.
 TournerGauche(): Tourne le véhicule vers la gauche.
@@ -60,3 +60,5 @@ Course:
 Démarrer(): Initialise la course et lance les véhicules.
 MettreÀJour(): Met à jour l'état de la course à chaque frame (position des véhicules, temps écoulé, etc.).
 EstCourseFinie(): Vérifie si la course est terminée (un véhicule a franchi la ligne d'arrivée).
+
+
