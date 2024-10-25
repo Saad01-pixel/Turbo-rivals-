@@ -41,24 +41,29 @@ TournerDroite(): Tourne le véhicule vers la droite.
 UtiliserBoost(): Active le boost du véhicule.
 UtiliserBouclier(): Active le bouclier du véhicule.
 SubirDommages(): Applique des dégâts au véhicule.
-VéhiculeIA:
+
+- VéhiculeIA:
 
 TrouverCheminOptimal(): Calcule le meilleur chemin pour atteindre la ligne d'arrivée.
 UtiliserObjetStratégiquement(): Décide quand et comment utiliser les objets spéciaux.
-VéhiculeJoueur:
+
+- VéhiculeJoueur:
 
 GérerEntrée(): Gère les entrées du joueur (clavier, manette) pour contrôler le véhicule.
-Objet:
+
+- Objet:
 
 AppliquerEffet(Véhicule): Applique l'effet de l'objet sur un véhicule (par exemple, accélérer, ralentir, créer un obstacle).
-Circuit:
+
+- Circuit:
 
 PositionValide(Position): Vérifie si une position donnée est valide sur le circuit.
 ObtenirWaypointProche(Position): Trouve le waypoint le plus proche d'une position donnée.
-Course:
+
+- Course:
 
 Démarrer(): Initialise la course et lance les véhicules.
 MettreÀJour(): Met à jour l'état de la course à chaque frame (position des véhicules, temps écoulé, etc.).
 EstCourseFinie(): Vérifie si la course est terminée (un véhicule a franchi la ligne d'arrivée).
 
-
+------------------------------
