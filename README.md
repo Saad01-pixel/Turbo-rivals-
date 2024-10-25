@@ -16,10 +16,12 @@ Hiérarchy de classe
 
 Architecture:
 
-Fonctions des attributs de classe
-Position du véhicule, vitesse, direction, santé, bouclier, BoostCount Move(), Accelerate(), Brake(), SteerLeft(), SteerRight(), UseBoost(), UseShield(), TakeDamage()
-AIVehicle DifficultyLevel FindShortestPath(), UseItemStrategically()
-PlayerVehicle PlayerInput HandleInput()
-Type d'élément, durée, EffectRadius ApplyEffect (Véhicule)
-Disposition du circuit, obstacles IsValidPosition (Position), GetNearestWaypoint (Position)
-Participants à la course, CurrentLap, FinishLine Start(), Update(), IsRaceFinished()
+Hiérarchie de classes et composants
+
+Classe	Attributs	Fonctions
+Véhicule	Position, Vitesse, Direction, Santé, Bouclier, BoostCount	Mouvement(), Accélérer(), Freiner(), TournerGauche(), TournerDroite(), UtiliserBoost(), UtiliserBouclier(), SubirDommages()
+VéhiculeIA	NiveauDifficulté	TrouverCheminLePlusCourt(), UtiliserObjetStratégiquement()
+VéhiculeJoueur	EntréeJoueur	GérerEntrée()
+Objet	Type, Durée, RayonEffet	AppliquerEffet(Véhicule)
+Circuit	Disposition, Obstacles	PositionValide(Position), ObtenirWaypointProche(Position)
+Course	Participants, TourActuel, LigneArrivée	Démarrer(), MettreÀJour(), EstCourseFinie()
